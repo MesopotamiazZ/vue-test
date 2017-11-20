@@ -16,6 +16,7 @@
     <!-- <fiveChild></fiveChild> -->
     <sixChild></sixChild>
     <vuex-demo></vuex-demo>
+    <module></module>
   </div>
 </template>
 
@@ -27,6 +28,7 @@ import fourChild from './components/fourChild'
 // import fiveChild from './components/fiveChild'
 import sixChild from './components/sixChild'
 import vuexDemo from './components/vuexDemo'
+import module from './components/module'
 export default {
   name: 'app',
   components: {
@@ -36,7 +38,8 @@ export default {
     fourChild: fourChild,
     // fiveChild: fiveChild,
     sixChild: sixChild,
-    vuexDemo: vuexDemo
+    vuexDemo: vuexDemo,
+    module: module
   }
 }
 </script>
